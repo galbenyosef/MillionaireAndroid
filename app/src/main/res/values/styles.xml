@@ -1,0 +1,17 @@
+<resources>
+
+    <!--<style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@android:color/holo_orange_dark</item>-->
+        <!--<item name="colorPrimaryDark">@android:color/holo_orange_dark</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    <!--</style>-->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
